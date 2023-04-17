@@ -1,0 +1,1280 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>client documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">client documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  NavbarComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/user/components/navbar/navbar.component.ts</code>
+</p>
+
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-navbar</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./navbar.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./navbar.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#email" >email</a>
+                            </li>
+                            <li>
+                                <a href="#hasQuery" >hasQuery</a>
+                            </li>
+                            <li>
+                                <a href="#isLogged" >isLogged</a>
+                            </li>
+                            <li>
+                                <a href="#password" >password</a>
+                            </li>
+                            <li>
+                                <a href="#sortedBooks" >sortedBooks</a>
+                            </li>
+                            <li>
+                                <a href="#userImage" >userImage</a>
+                            </li>
+                            <li>
+                                <a href="#wrongData" >wrongData</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getData" >getData</a>
+                            </li>
+                            <li>
+                                <a href="#logOut" >logOut</a>
+                            </li>
+                            <li>
+                                <a href="#onSubmit" >onSubmit</a>
+                            </li>
+                            <li>
+                                <a href="#sendData" >sendData</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_AuthService: <a href="../injectables/AuthService.html" target="_self">AuthService</a>, _Router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, search: <a href="../injectables/BooksService.html" target="_self">BooksService</a>, _UserServ: <a href="../injectables/UsersService.html" target="_self">UsersService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_AuthService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_Router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>search</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/BooksService.html" target="_self" >BooksService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_UserServ</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UsersService.html" target="_self" >UsersService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getData"></a>
+                    <span class="name">
+                        <span ><b>getData</b></span>
+                        <a href="#getData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getData()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="66"
+                            class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:66</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="logOut"></a>
+                    <span class="name">
+                        <span ><b>logOut</b></span>
+                        <a href="#logOut"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>logOut()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="79"
+                            class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:79</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSubmit"></a>
+                    <span class="name">
+                        <span ><b>onSubmit</b></span>
+                        <a href="#onSubmit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSubmit(Form: <a href="https://angular.io/api/forms/NgForm" target="_blank">NgForm</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="45"
+                            class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:45</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Form</td>
+                                    <td>
+                                                <code><a href="https://angular.io/api/forms/NgForm" target="_blank" >NgForm</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sendData"></a>
+                    <span class="name">
+                        <span ><b>sendData</b></span>
+                        <a href="#sendData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sendData(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="86"
+                            class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:86</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="email"></a>
+                    <span class="name">
+                        <span ><b>email</b></span>
+                        <a href="#email"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasQuery"></a>
+                    <span class="name">
+                        <span ><b>hasQuery</b></span>
+                        <a href="#hasQuery"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isLogged"></a>
+                    <span class="name">
+                        <span ><b>isLogged</b></span>
+                        <a href="#isLogged"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="password"></a>
+                    <span class="name">
+                        <span ><b>password</b></span>
+                        <a href="#password"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sortedBooks"></a>
+                    <span class="name">
+                        <span ><b>sortedBooks</b></span>
+                        <a href="#sortedBooks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Book[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="userImage"></a>
+                    <span class="name">
+                        <span ><b>userImage</b></span>
+                        <a href="#userImage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="wrongData"></a>
+                    <span class="name">
+                        <span ><b>wrongData</b></span>
+                        <a href="#wrongData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/modules/user/components/navbar/navbar.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { NgForm } from &#x27;@angular/forms&#x27;;
+import { LoginComponent } from &#x27;../login/login.component&#x27;;
+import { AuthService } from &#x27;../../services/auth.service&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { HttpErrorResponse } from &#x27;@angular/common/http&#x27;;
+import { BooksService } from &#x27;../../services/books.service&#x27;;
+import { UsersService } from &#x27;../../services/users.service&#x27;;
+
+interface Book{
+  _id:string,
+  title: string,
+  author?: any,
+  category?: any,
+  description?: string,
+  rating?: object,
+
+}
+
+@Component({
+  selector: &#x27;app-navbar&#x27;,
+  templateUrl: &#x27;./navbar.component.html&#x27;,
+  styleUrls: [&#x27;./navbar.component.css&#x27;]
+})
+export class NavbarComponent{
+  email &#x3D; &quot;&quot;
+  password &#x3D; &quot;&quot;
+  wrongData &#x3D; false
+  isLogged &#x3D; false;
+  userImage &#x3D; &quot;&quot;;
+  sortedBooks : Book[] &#x3D; [];
+  hasQuery  &#x3D;false;
+constructor(private _AuthService:AuthService, private _Router: Router, private search: BooksService,
+            private _UserServ: UsersService
+  ){
+      this._AuthService.saveUser()
+      if(this._AuthService.currentUser.getValue() !&#x3D; null){
+        this.getData()
+        this.isLogged &#x3D; true;    
+      }
+      else
+        this.isLogged &#x3D; false
+}
+
+onSubmit(Form: NgForm) {
+  this._AuthService.login(Form.value).subscribe(
+  data &#x3D;&gt; {
+    this.wrongData &#x3D; false;
+    this._AuthService.currentUser.subscribe(()&#x3D;&gt;{
+
+      if(this._AuthService.currentUser.getValue() !&#x3D; null){
+        this.isLogged &#x3D; true     
+      }
+      this.isLogged &#x3D; true  
+      window.location.reload();
+    })
+  },
+  error &#x3D;&gt; {
+    if (error instanceof HttpErrorResponse) {
+      this.wrongData &#x3D; true;
+    }
+  }
+  )}
+
+
+getData(){
+  this._UserServ.getUserById(this._AuthService.currentUserId, 0, 0, {}).subscribe(
+    data &#x3D;&gt; {
+      this.userImage &#x3D; data.image
+    },
+    error &#x3D;&gt; {
+      return
+}
+
+
+  )}
+
+
+logOut(){
+  localStorage.removeItem(&quot;token&quot;);
+}
+
+
+
+// Search method
+sendData(event: any){
+  const query &#x3D; event.target.value;
+  const matchSpaces:any &#x3D;query.match(/\s*/);
+  if(matchSpaces[0] &#x3D;&#x3D;&#x3D; query){
+      this.sortedBooks &#x3D; []
+      this.hasQuery &#x3D; false
+      return;
+  }
+  this.search.searchForBooks(query.trim()).subscribe((res &#x3D;&gt;{
+      this.sortedBooks &#x3D; res;
+      this.hasQuery &#x3D; true
+
+  }));
+}
+
+
+
+
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">
+&lt;nav class&#x3D;&quot;navbar navbar-expand-lg navbar-light bg-light&quot;&gt;
+	&lt;a href&#x3D;&quot;/&quot; class&#x3D;&quot;navbar-brand&quot;&gt;Book&lt;b&gt;nary&lt;/b&gt;&lt;/a&gt;  		
+	&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;navbar-toggler&quot; data-toggle&#x3D;&quot;collapse&quot; data-target&#x3D;&quot;#navbarCollapse&quot;&gt;
+		&lt;span class&#x3D;&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+	&lt;/button&gt;
+	&lt;!-- Collection of nav links, forms, and other content for toggling --&gt;
+	&lt;div id&#x3D;&quot;navbarCollapse&quot; class&#x3D;&quot;collapse navbar-collapse justify-content-start&quot;&gt;
+		&lt;div class&#x3D;&quot;navbar-nav&quot;&gt;
+			&lt;a class&#x3D;&quot;nav-item nav-link active&quot; href&#x3D;&quot;/&quot;&gt;Home&lt;/a&gt;
+			&lt;a  class&#x3D;&quot;nav-item nav-link&quot; [routerLink]&#x3D;&quot;[&#x27;/books&#x27;]&quot;&gt;Books&lt;/a&gt;	
+			&lt;a *ngIf&#x3D;&quot;isLogged&quot; class&#x3D;&quot;nav-item nav-link&quot; [routerLink]&#x3D;&quot;[&#x27;/shelve&#x27;]&quot;&gt;My books&lt;/a&gt;		
+			&lt;a class&#x3D;&quot;nav-item nav-link&quot; [routerLink]&#x3D;&quot;[&#x27;/authors&#x27;]&quot;&gt;Authors&lt;/a&gt;
+			&lt;a class&#x3D;&quot;nav-item nav-link&quot; [routerLink]&#x3D;&quot;[&#x27;/categories&#x27;]&quot;&gt;Categories&lt;/a&gt;
+			&lt;a class&#x3D;&quot;nav-item nav-link&quot; [routerLink]&#x3D;&quot;[&#x27;/aboutus&#x27;]&quot;&gt;About us&lt;/a&gt;
+        &lt;/div&gt;
+		&lt;form class&#x3D;&quot;navbar-form form-inline&quot;&gt;
+			&lt;div  class&#x3D;&quot;input-group search-box&quot;&gt;								
+				&lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;search&quot; class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;Search for a book ..&quot; (keyup)&#x3D;&quot;sendData($event)&quot;&gt;
+				&lt;div class&#x3D;&quot;input-group-append&quot;&gt;
+					&lt;span class&#x3D;&quot;input-group-text&quot;&gt;&lt;i class&#x3D;&quot;material-icons&quot;&gt;&amp;#xE8B6;&lt;/i&gt;&lt;/span&gt;
+				&lt;/div&gt;
+				
+			&lt;/div&gt;
+			&lt;div class&#x3D;&quot;search-resault&quot; *ngIf&#x3D;&quot;hasQuery&quot; &gt;
+				&lt;p *ngIf&#x3D;&quot;sortedBooks.length &lt; 1&quot;&gt;Sorry, Not found&lt;/p&gt;
+	
+				&lt;div *ngFor&#x3D;&quot;let book of sortedBooks&quot;&gt;
+					&lt;hr&gt;
+					&lt;p&gt;&lt;a [routerLink] &#x3D; &#x27;[&quot;/singleBook&quot;, book._id ]&#x27;&gt;{{book.title}}&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+				
+			&lt;/div&gt;
+		&lt;/form&gt;
+	
+		&lt;div *ngIf&#x3D;&quot;isLogged&quot; class&#x3D;&quot;logedin action-buttons ml-auto&quot;&gt;
+			&lt;div class&#x3D;&quot;proile-image&quot;&gt;
+				&lt;a data-toggle&#x3D;&quot;dropdown&quot; class&#x3D;&quot;login-btn nav-item nav-link dropdown-toggle mr-3&quot;&gt;
+				
+				&lt;/a&gt;
+
+				&lt;div class&#x3D;&quot;dropdown&quot;&gt;
+					&lt;a routerLink&#x3D;&quot;profile&quot; class&#x3D;&quot;btn btn-secondary dropdown-toggle&quot; href&#x3D;&quot;#&quot; role&#x3D;&quot;button&quot; id&#x3D;&quot;dropdownMenuLink&quot; data-toggle&#x3D;&quot;dropdown&quot; aria-haspopup&#x3D;&quot;true&quot; aria-expanded&#x3D;&quot;false&quot;&gt;
+					  &lt;img width&#x3D;&quot;50&quot; height&#x3D;&quot;50&quot; [src]&#x3D;&quot;userImage&quot;&gt;
+					&lt;/a&gt;
+					
+				  &lt;/div&gt;
+				
+			&lt;/div&gt;
+			&lt;div (click)&#x3D;&quot;logOut()&quot; class&#x3D;&quot;button logout&quot;&gt;
+				&lt;a href&#x3D;&quot;&quot;&gt;
+				  &lt;img src&#x3D;&quot;https://assets.codepen.io/9277864/logout.svg&quot; alt&#x3D;&quot;Logout Icon&quot; width&#x3D;&quot;28&quot; height&#x3D;&quot;30&quot; /&gt;
+				  &lt;span&gt;Logout&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+		&lt;div *ngIf&#x3D;&quot;!isLogged&quot; class&#x3D;&quot;navbar-nav action-buttons ml-auto&quot;&gt;
+			&lt;a data-toggle&#x3D;&quot;dropdown&quot; class&#x3D;&quot;login-btn nav-item nav-link dropdown-toggle mr-3&quot;&gt;Login&lt;/a&gt;
+			&lt;div class&#x3D;&quot;dropdown-menu login-form&quot;&gt;
+				&lt;form #Form&#x3D;&quot;ngForm&quot; (ngSubmit)&#x3D;&quot;onSubmit(Form)&quot;&gt;
+					&lt;div class&#x3D;&quot;form-group&quot;&gt;
+						&lt;label&gt;Email&lt;/label&gt;
+						&lt;input type&#x3D;&quot;email&quot; id&#x3D;&quot;form3Example3&quot; class&#x3D;&quot;form-control form-control-lg&quot;
+							placeholder&#x3D;&quot;Email&quot;
+							aria-describedby&#x3D;&quot;emailHelp&quot;
+							id&#x3D;&quot;Email&quot; 
+							[(ngModel)]&#x3D; &quot;email&quot;
+							name&#x3D;&quot;email&quot; 
+							required
+							/&gt;
+					&lt;/div&gt;
+					&lt;div class&#x3D;&quot;form-group&quot;&gt;
+						&lt;div class&#x3D;&quot;clearfix&quot;&gt;
+							&lt;label&gt;Password&lt;/label&gt;
+							&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;float-right text-muted&quot;&gt;&lt;small&gt;Forgot?&lt;/small&gt;&lt;/a&gt;
+						&lt;/div&gt;                            
+						&lt;input  type&#x3D;&quot;password&quot; class&#x3D;&quot;form-control form-control-lg&quot;
+								placeholder&#x3D;&quot;password&quot; 
+								aria-describedby&#x3D;&quot;emailHelp&quot;
+								id&#x3D;&quot;password&quot; 
+								[(ngModel)]&#x3D; &quot;password&quot;
+								name&#x3D;&quot;password&quot; 
+								require/&gt;
+					&lt;/div&gt;
+           			 &lt;p *ngIf&#x3D;&quot;wrongData&quot; style&#x3D;&quot;color: red;&quot;&gt;* Check your email/password and try again&lt;/p&gt;
+
+					&lt;input type&#x3D;&quot;submit&quot; class&#x3D;&quot;btn btn-primary btn-block&quot; value&#x3D;&quot;Login&quot;&gt;
+				&lt;/form&gt;					
+			&lt;/div&gt;			
+			&lt;a [routerLink]&#x3D;&quot;[&#x27;/register&#x27;]&quot; class&#x3D;&quot;btn btn-primary&quot;&gt;Get Started&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./navbar.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">body {
+	font-family: &#x27;Varela Round&#x27;, sans-serif;
+}
+.form-control {
+	box-shadow: none;
+	border-radius: 4px;
+}	
+.navbar {
+	margin-bottom: 3px;
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #dfe3e8;
+	border-radius: 0;
+}
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+}
+.navbar .navbar-brand b {
+	color: #E64C3C;		
+}
+.navbar .form-inline {
+	display: inline-block;
+}
+.navbar .navbar-nav {
+	position: relative;
+}
+.navbar a, .navbar a:active {
+	color: #888;
+	font-size: 15px;
+	background: transparent;
+}
+.search-box {
+	position: relative;
+}	
+.search-box input {
+	padding-right: 35px;
+	border-color: #dfe3e8;
+	border-radius: 4px !important;
+	box-shadow: none
+}
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+}
+.navbar .btn-primary, .navbar .btn-primary:active {
+	border-radius: 0;
+	border: none;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 3px;
+	padding: 6px 12px 6px 18px;
+	font-weight: 800;
+	color: #fff;
+	font-size: 18px;
+	box-shadow: 2.5px 2.5px #000;
+	transition: .5s;
+	background-color: #E64C3C;
+}
+.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+	color: #000;
+	background: #fff !important;
+}
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none;
+}
+.search-box .btn span {
+	transform: scale(0.9);
+	display: inline-block;
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .navbar-nav .dropdown-menu a {
+	padding: 8px 20px;
+	line-height: normal;
+}
+.navbar .navbar-form {
+	border: none;
+}
+.navbar .navbar-form-wrapper {
+	padding: 0 15px;
+}
+.navbar .login-form label {
+	color: #888;
+	font-weight: normal;
+}
+.navbar .dropdown-menu.login-form {
+	width: 280px;
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+}
+.navbar .navbar-nav .dropdown-menu.login-form a {
+	padding: 0 !important;
+	color: #E64C3C;
+	font-weight: normal;
+}
+.navbar .navbar-nav .dropdown-menu.login-form a:hover{
+	text-decoration: underline;
+}
+.navbar .dropdown-menu.login-form .checkbox-inline {
+	margin-top: 10px;
+}
+
+/* After login */
+.logedin{
+	display: flex;
+}
+.logedin .proile-image{
+	margin: 0 2em;
+}
+.button a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 3px;
+	padding: 6px 12px 6px 18px;
+	font-weight: 800;
+	color: #fff;
+	font-size: 18px;
+	box-shadow: 2.5px 2.5px #000;
+	transition: .5s;
+  }
+
+.logout a {
+	background-color: #E64C3C;
+  }
+  
+.logout a:hover {
+	animation: scale 1.2s infinite linear;
+	background-color: #F8F9FA;
+	color: #000;
+  }
+
+  .search-resault{
+	min-width: 35px;
+	width: 20%;
+	position: absolute;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0px auto 0 auto;
+	background-color:rgb(249, 247, 237);
+	border-radius: 5px;
+	padding: 10px;
+	z-index: 500;
+  }
+  .search-resault hr{
+	border:none;
+	height: 1px;
+	background: #999;
+	}
+
+.search-resault p{
+	margin: 10px 0;
+}
+.search-resault a{
+	text-decoration: none;
+	font-size: 1.10em;
+	transition: 2s;
+
+}
+.search-resault a:hover{
+	color: #E64C3C;
+	padding-left: 30px ;
+}
+
+  
+  @keyframes scale {
+	30% {
+	  transform: scale(1.1);
+	}
+	40%,
+	60% {
+	  transform: rotate(-2deg) scale(1.1);
+	}
+	50% {
+	  transform: rotate(2deg) scale(1.1);
+	}
+	70% {
+	  transform: rotate(0deg) scale(1.1);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+
+
+.action-buttons .login-btn{
+	font-size: 1.2em;
+	cursor: pointer;
+}
+@media (min-width: 1200px){
+	.form-inline .input-group {
+		width: 300px;
+		margin-left: 30px;
+	}
+}
+@media (max-width: 996px){
+	.navbar .dropdown-menu.login-form {
+		width: 100%;
+		padding: 10px 15px;
+		background: transparent;
+		border: none;
+	}
+	.login-btn{
+		text-align: center;
+	}
+	.navbar .form-inline {
+		display: block;
+	}
+	.navbar .input-group {
+		width: 100%;
+	}
+	.navbar .navbar-nav .btn-primary, .navbar .navbar-nav .btn-primary:active {
+		display: block;
+	}
+	.search-resault{
+		position: relative;
+		width: 100%;
+	}
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><nav class="navbar navbar-expand-lg navbar-light bg-light">	<a href="/" class="navbar-brand">Book<b>nary</b></a>  			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">		<span class="navbar-toggler-icon"></span>	</button>	<!-- Collection of nav links, forms, and other content for toggling -->	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">		<div class="navbar-nav">			<a class="nav-item nav-link active" href="/">Home</a>			<a  class="nav-item nav-link" [routerLink]="[\'/books\']">Books</a>				<a *ngIf="isLogged" class="nav-item nav-link" [routerLink]="[\'/shelve\']">My books</a>					<a class="nav-item nav-link" [routerLink]="[\'/authors\']">Authors</a>			<a class="nav-item nav-link" [routerLink]="[\'/categories\']">Categories</a>			<a class="nav-item nav-link" [routerLink]="[\'/aboutus\']">About us</a>        </div>		<form class="navbar-form form-inline">			<div  class="input-group search-box">												<input type="text" id="search" class="form-control" placeholder="Search for a book .." (keyup)="sendData($event)">				<div class="input-group-append">					<span class="input-group-text"><i class="material-icons">&#xE8B6;</i></span>				</div>							</div>			<div class="search-resault" *ngIf="hasQuery" >				<p *ngIf="sortedBooks.length < 1">Sorry, Not found</p>					<div *ngFor="let book of sortedBooks">					<hr>					<p><a [routerLink] = \'["/singleBook", book._id ]\'>{{book.title}}</a></p>				</div>							</div>		</form>			<div *ngIf="isLogged" class="logedin action-buttons ml-auto">			<div class="proile-image">				<a data-toggle="dropdown" class="login-btn nav-item nav-link dropdown-toggle mr-3">								</a>				<div class="dropdown">					<a routerLink="profile" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">					  <img width="50" height="50" [src]="userImage">					</a>									  </div>							</div>			<div (click)="logOut()" class="button logout">				<a href="">				  <img src="https://assets.codepen.io/9277864/logout.svg" alt="Logout Icon" width="28" height="30" />				  <span>Logout</span>				</a>			</div>		</div>		<div *ngIf="!isLogged" class="navbar-nav action-buttons ml-auto">			<a data-toggle="dropdown" class="login-btn nav-item nav-link dropdown-toggle mr-3">Login</a>			<div class="dropdown-menu login-form">				<form #Form="ngForm" (ngSubmit)="onSubmit(Form)">					<div class="form-group">						<label>Email</label>						<input type="email" id="form3Example3" class="form-control form-control-lg"							placeholder="Email"							aria-describedby="emailHelp"							id="Email" 							[(ngModel)]= "email"							name="email" 							required							/>					</div>					<div class="form-group">						<div class="clearfix">							<label>Password</label>							<a href="#" class="float-right text-muted"><small>Forgot?</small></a>						</div>                            						<input  type="password" class="form-control form-control-lg"								placeholder="password" 								aria-describedby="emailHelp"								id="password" 								[(ngModel)]= "password"								name="password" 								require/>					</div>           			 <p *ngIf="wrongData" style="color: red;">* Check your email/password and try again</p>					<input type="submit" class="btn btn-primary btn-block" value="Login">				</form>								</div>						<a [routerLink]="[\'/register\']" class="btn btn-primary">Get Started</a>		</div>	</div></nav></div>'
+    var COMPONENTS = [{'name': 'AboutusComponent', 'selector': 'app-aboutus'},{'name': 'AdminAuthorsComponent', 'selector': 'app-admin-authors'},{'name': 'AdminBooksComponent', 'selector': 'app-admin-books'},{'name': 'AdminCategoriesComponent', 'selector': 'app-admin-categories'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminLoginComponent', 'selector': 'app-admin-login'},{'name': 'AdminProfileComponent', 'selector': 'app-admin-profile'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AuthorComponent', 'selector': 'app-author'},{'name': 'AuthorDetailsComponent', 'selector': 'app-author-details'},{'name': 'AuthorsComponent', 'selector': 'app-authors'},{'name': 'BooksComponent', 'selector': 'app-books'},{'name': 'CategoriesComponent', 'selector': 'app-categories'},{'name': 'CategoryComponent', 'selector': 'app-category'},{'name': 'CategoryDetailsComponent', 'selector': 'app-category-details'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'RegistrationComponent', 'selector': 'app-registration'},{'name': 'ShelveComponent', 'selector': 'app-shelve'},{'name': 'ShelveMainComponent', 'selector': 'app-shelve-main'},{'name': 'ShelveSidebarComponent', 'selector': 'app-shelve-sidebar'},{'name': 'SingleBookComponent', 'selector': 'app-single-book'},{'name': 'UserComponent', 'selector': 'app-user'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'NavbarComponent-1'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'NavbarComponent-1.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

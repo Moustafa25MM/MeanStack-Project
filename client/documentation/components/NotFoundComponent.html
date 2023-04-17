@@ -1,0 +1,641 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>client documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">client documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  NotFoundComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/mainComponents/not-found/not-found.component.ts</code>
+</p>
+
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-not-found</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./not-found.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./not-found.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
+
+@Component({
+  selector: &#x27;app-not-found&#x27;,
+  templateUrl: &#x27;./not-found.component.html&#x27;,
+  styleUrls: [&#x27;./not-found.component.css&#x27;]
+})
+export class NotFoundComponent {
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;wrapper&quot;&gt;&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 1920 1080&quot;&gt;
+    &lt;title&gt;404&lt;/title&gt;
+    &lt;g id&#x3D;&quot;Layer_12 yellow-back-fig&quot; data-name&#x3D;&quot;Layer 12&quot;&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M600.87,872H156a4,4,0,0,0-3.78,4.19h0a4,4,0,0,0,3.78,4.19H600.87a4,4,0,0,0,3.78-4.19h0A4,4,0,0,0,600.87,872Z&quot;/&gt;
+      &lt;rect class&#x3D;&quot;cls-1&quot; x&#x3D;&quot;680.91&quot; y&#x3D;&quot;871.98&quot; width&#x3D;&quot;513.38&quot; height&#x3D;&quot;8.39&quot; rx&#x3D;&quot;4.19&quot; ry&#x3D;&quot;4.19&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M1480,876.17h0c0,2.32,2.37,4.19,5.3,4.19h350.61c2.93,0,5.3-1.88,5.3-4.19h0c0-2.32-2.37-4.19-5.3-4.19H1485.26C1482.33,872,1480,873.86,1480,876.17Z&quot;/&gt;
+      &lt;rect class&#x3D;&quot;cls-1&quot; x&#x3D;&quot;492.21&quot; y&#x3D;&quot;920.64&quot; width&#x3D;&quot;249.8&quot; height&#x3D;&quot;8.39&quot; rx&#x3D;&quot;4.19&quot; ry&#x3D;&quot;4.19&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M1549.14,924.84h0a4.19,4.19,0,0,0-4.19-4.19H1067.46a14.66,14.66,0,0,1,.35,3.21v1A4.19,4.19,0,0,0,1072,929h472.94A4.19,4.19,0,0,0,1549.14,924.84Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M865.5,924.84h0a4.19,4.19,0,0,0,4.19,4.19h82.37a12.28,12.28,0,0,1-.19-2v-2.17a4.19,4.19,0,0,0-4.19-4.19h-78A4.19,4.19,0,0,0,865.5,924.84Z&quot;/&gt;
+      &lt;rect class&#x3D;&quot;cls-1&quot; x&#x3D;&quot;915.6&quot; y&#x3D;&quot;981.47&quot; width&#x3D;&quot;54.72&quot; height&#x3D;&quot;8.39&quot; rx&#x3D;&quot;4.19&quot; ry&#x3D;&quot;4.19&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M730.33,985.67h0c0,2.32,4.23,4.19,9.44,4.19h104.3c5.22,0,9.44-1.88,9.44-4.19h0c0-2.32-4.23-4.19-9.44-4.19H739.78C734.56,981.47,730.33,983.35,730.33,985.67Z&quot;/&gt;
+      &lt;rect class&#x3D;&quot;cls-1&quot; x&#x3D;&quot;997.06&quot; y&#x3D;&quot;981.47&quot; width&#x3D;&quot;78.11&quot; height&#x3D;&quot;8.39&quot; rx&#x3D;&quot;4.19&quot; ry&#x3D;&quot;4.19&quot;/&gt;
+      
+     &lt;g id&#x3D;&quot;round-conf&quot;&gt;
+      &lt;path class&#x3D;&quot;cls-1 circle c1&quot; d&#x3D;&quot;M536.41,155.14a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,536.41,155.14Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,536.41,183.81Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1 circle c2&quot; d&#x3D;&quot;M1345.09,82.44a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,1345.09,82.44Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,1345.09,111.12Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1 circle c3&quot; d&#x3D;&quot;M70.12,363A17.77,17.77,0,1,0,87.89,380.8,17.77,17.77,0,0,0,70.12,363Zm0,28.68A10.9,10.9,0,1,1,81,380.8,10.9,10.9,0,0,1,70.12,391.7Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1 circle c4&quot; d&#x3D;&quot;M170.47,751.82a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,170.47,751.82Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,170.47,780.5Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1 circle c5&quot; d&#x3D;&quot;M1457.34,762.73a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,1457.34,762.73Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,1457.34,791.4Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1 circle c6&quot; d&#x3D;&quot;M1829.15,407.49a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,1829.15,407.49Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,1829.15,436.17Z&quot;/&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;fortyfour&quot; data-name&#x3D;&quot;Layer 2&quot;&gt;
+      &lt;g class&#x3D;&quot;four a&quot;&gt;
+        
+        &lt;rect class&#x3D;&quot;cls-2&quot; x&#x3D;&quot;233.74&quot; y&#x3D;&quot;391.14&quot; width&#x3D;&quot;120.71&quot; height&#x3D;&quot;466.29&quot; rx&#x3D;&quot;57.1&quot; ry&#x3D;&quot;57.1&quot; transform&#x3D;&quot;translate(918.39 330.19) rotate(90)&quot;/&gt;
+          
+        &lt;rect class&#x3D;&quot;cls-3&quot; x&#x3D;&quot;333.83&quot; y&#x3D;&quot;475.1&quot; width&#x3D;&quot;120.71&quot; height&#x3D;&quot;396.88&quot; rx&#x3D;&quot;60.36&quot; ry&#x3D;&quot;60.36&quot;/&gt;
+       
+        &lt;rect class&#x3D;&quot;cls-3&quot; x&#x3D;&quot;197.13&quot; y&#x3D;&quot;122.89&quot; width&#x3D;&quot;120.71&quot; height&#x3D;&quot;604.75&quot; rx&#x3D;&quot;60.36&quot; ry&#x3D;&quot;60.36&quot; transform&#x3D;&quot;translate(290.49 -70.78) rotate(35)&quot;/&gt;
+    
+      &lt;/g&gt;
+      &lt;g class&#x3D;&quot;four b&quot;&gt;
+  
+        &lt;rect class&#x3D;&quot;cls-2&quot; x&#x3D;&quot;1558.84&quot; y&#x3D;&quot;391.91&quot; width&#x3D;&quot;120.71&quot; height&#x3D;&quot;466.29&quot; rx&#x3D;&quot;57.1&quot; ry&#x3D;&quot;57.1&quot; transform&#x3D;&quot;translate(2244.26 -994.14) rotate(90)&quot;/&gt;
+    
+     
+        &lt;rect class&#x3D;&quot;cls-3&quot; x&#x3D;&quot;1658.92&quot; y&#x3D;&quot;475.87&quot; width&#x3D;&quot;120.71&quot; height&#x3D;&quot;396.88&quot; rx&#x3D;&quot;60.36&quot; ry&#x3D;&quot;60.36&quot;/&gt;
+  
+        &lt;rect class&#x3D;&quot;cls-3&quot; x&#x3D;&quot;1522.22&quot; y&#x3D;&quot;123.66&quot; width&#x3D;&quot;120.71&quot; height&#x3D;&quot;604.75&quot; rx&#x3D;&quot;60.36&quot; ry&#x3D;&quot;60.36&quot; transform&#x3D;&quot;translate(530.57 -830.68) rotate(35)&quot;/&gt;
+   
+      &lt;/g&gt;
+      &lt;path class&#x3D;&quot;cls-3&quot; id&#x3D;&quot;ou&quot; d&#x3D;&quot;M956.54,168.2c-194.34,0-351.89,157.55-351.89,351.89S762.19,872,956.54,872s351.89-157.55,351.89-351.89S1150.88,168.2,956.54,168.2Zm0,584.49c-128.46,0-232.6-104.14-232.6-232.6s104.14-232.6,232.6-232.6,232.6,104.14,232.6,232.6S1085,752.69,956.54,752.69Z&quot;/&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;umbrella&quot; data-name&#x3D;&quot;Layer 3&quot;&gt;
+      &lt;g&gt;
+        &lt;circle class&#x3D;&quot;cls-4&quot; cx&#x3D;&quot;1187.53&quot; cy&#x3D;&quot;240.3&quot; r&#x3D;&quot;7.66&quot; transform&#x3D;&quot;translate(236.36 990.8) rotate(-49.71)&quot;/&gt;
+        &lt;g&gt;
+          &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M1219.56,359.67l55,100.52c32.7-48.48-6.87-142.43-91.75-214.38-84.41-71.55-183-95.33-225.81-56l114.21,44.14Z&quot;/&gt;
+          &lt;path class&#x3D;&quot;cls-6&quot; d&#x3D;&quot;M1182.79,245.81c-84.41-71.55-183-95.33-225.81-56l114.21,44.14Z&quot;/&gt;
+          &lt;polygon class&#x3D;&quot;cls-7&quot; points&#x3D;&quot;1182.79 245.81 1071.19 233.91 1219.56 359.67 1182.79 245.81&quot;/&gt;
+        &lt;/g&gt;
+        &lt;polygon class&#x3D;&quot;cls-8&quot; points&#x3D;&quot;1180.91 409.02 1274.54 460.19 1219.56 359.67 1071.19 233.91 956.98 189.76 1021.95 274.29 1180.91 409.02&quot;/&gt;
+        &lt;g&gt;
+          &lt;rect class&#x3D;&quot;cls-4&quot; x&#x3D;&quot;997.45&quot; y&#x3D;&quot;358.35&quot; width&#x3D;&quot;175.58&quot; height&#x3D;&quot;5.1&quot; transform&#x3D;&quot;translate(108.21 955.38) rotate(-49.71)&quot;/&gt;
+          &lt;rect class&#x3D;&quot;cls-4&quot; x&#x3D;&quot;1028.09&quot; y&#x3D;&quot;399.36&quot; width&#x3D;&quot;21.46&quot; height&#x3D;&quot;32.27&quot; rx&#x3D;&quot;10.73&quot; ry&#x3D;&quot;10.73&quot; transform&#x3D;&quot;translate(515.04 -573.16) rotate(40.29)&quot;/&gt;
+        &lt;/g&gt;
+      &lt;/g&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;pillow&quot; data-name&#x3D;&quot;Layer 4&quot;&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M754,627.07c7,.54,12.92-2.82,13.35-7.59s-4.95-9.24-12-9.87a18.55,18.55,0,0,0-2.17,0l-74.9-81.64c0-.1,0-.19,0-.29,0-7.09-4-12.83-8.8-12.81s-8.75,5.77-8.73,12.87c0,0,0,.09,0,.13l-50.21,46.07h-.09c-7.06-.63-13.14,2.77-13.57,7.59s4.87,9.16,11.85,9.84l76.08,82.92s0,0,0,.06c0,7.09,4,12.83,8.8,12.81s8.65-5.66,8.71-12.65Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-9&quot; d&#x3D;&quot;M669.46,514.82c-4.77-.83-8.75,5.77-8.73,12.87,0,0,0,.09,0,.13l-50.21,46.07h-.09c-7.06-.63-13.14,2.77-13.57,7.59s4.87,9.16,11.85,9.84l76.08,82.92s0,0,0,.06c0,7.09,4,12.83,8.8,12.81s8.65-5.66,8.71-12.65C570.55,573,702.07,520.47,669.46,514.82Z&quot;/&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;cup&quot; data-name&#x3D;&quot;Layer 7&quot;&gt;
+      &lt;polygon class&#x3D;&quot;cls-1&quot; points&#x3D;&quot;1173.69 748.21 1140.52 715.42 1195.79 647.35 1241.13 692.16 1173.69 748.21&quot;/&gt;
+      &lt;polygon class&#x3D;&quot;cls-8&quot; points&#x3D;&quot;1173.69 748.21 1140.52 715.42 1143.93 711.27 1177.81 744.75 1173.69 748.21&quot;/&gt;
+      &lt;polygon class&#x3D;&quot;cls-5&quot; points&#x3D;&quot;1194.68 731.46 1157.04 694.24 1183.8 661.7 1226.91 704.32 1194.68 731.46&quot;/&gt;
+      &lt;g class&#x3D;&quot;cls-10&quot;&gt;
+        &lt;path class&#x3D;&quot;cls-8&quot; d&#x3D;&quot;M1176.32,667.78h0a4.19,4.19,0,0,1,4.19,4.19v33.54a0,0,0,0,1,0,0h-8.38a0,0,0,0,1,0,0V672a4.19,4.19,0,0,1,4.19-4.19Z&quot; transform&#x3D;&quot;translate(822.53 -628.67) rotate(44.67)&quot;/&gt;
+        &lt;path class&#x3D;&quot;cls-8&quot; d&#x3D;&quot;M1172.73,709.7l23.58-23.85a4.19,4.19,0,0,1,5.92,0h0a4.19,4.19,0,0,1,0,5.92l-23.58,23.85Z&quot;/&gt;
+        &lt;path class&#x3D;&quot;cls-8&quot; d&#x3D;&quot;M1185.11,722.09l23.58-23.85a4.19,4.19,0,0,1,5.92,0h0a4.19,4.19,0,0,1,0,5.92L1191.06,728Z&quot;/&gt;
+      &lt;/g&gt;
+      &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M1197.85,660.5h45.69a5.7,5.7,0,0,1,5.7,5.7v8.32a0,0,0,0,1,0,0h-57.09a0,0,0,0,1,0,0v-8.32A5.7,5.7,0,0,1,1197.85,660.5Z&quot; transform&#x3D;&quot;translate(829.53 -667.66) rotate(45)&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-8&quot; d&#x3D;&quot;M1191.49,664.74h53.94a5.25,5.25,0,0,1,5.25,5.25v4.79a0,0,0,0,1,0,0h-64.44a0,0,0,0,1,0,0V670a5.25,5.25,0,0,1,5.25-5.25Z&quot; transform&#x3D;&quot;translate(822.83 -663.17) rotate(44.67)&quot;/&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;clock&quot; data-name&#x3D;&quot;Layer 8&quot;&gt;
+  
+      &lt;circle class&#x3D;&quot;cls-5&quot; cx&#x3D;&quot;847.7&quot; cy&#x3D;&quot;247.59&quot; r&#x3D;&quot;74.66&quot; transform&#x3D;&quot;translate(-32.91 314.05) rotate(-20.6)&quot;/&gt;
+      &lt;circle class&#x3D;&quot;cls-1&quot; cx&#x3D;&quot;847.7&quot; cy&#x3D;&quot;247.59&quot; r&#x3D;&quot;63.44&quot; transform&#x3D;&quot;translate(-32.91 314.05) rotate(-20.6)&quot;/&gt;
+      &lt;rect class&#x3D;&quot;cls-3 clock-hand-1&quot; x&#x3D;&quot;845&quot; y&#x3D;&quot;189.5&quot; width&#x3D;&quot;6.04&quot; height&#x3D;&quot;58&quot; rx&#x3D;&quot;3.02&quot; ry&#x3D;&quot;3.02&quot; /&gt;
+      &lt;rect class&#x3D;&quot;cls-3 clock-hand-2&quot; x&#x3D;&quot;845&quot; y&#x3D;&quot;209.5&quot; width&#x3D;&quot;6.04&quot; height&#x3D;&quot;38&quot; rx&#x3D;&quot;3.02&quot; ry&#x3D;&quot;3.02&quot; transform&#x3D;&quot;translate(1611.22 -230.4) rotate(130.4)&quot;/&gt;
+          &lt;circle class&#x3D;&quot;cls-3&quot; cx&#x3D;&quot;847.7&quot; cy&#x3D;&quot;247.59&quot; transform&#x3D;&quot;translate(-32.91 314.05) rotate(-20.6)&quot; r&#x3D;&quot;3&quot; /&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;box&quot; data-name&#x3D;&quot;Layer 9&quot;&gt;
+      &lt;g id&#x3D;&quot;box-top&quot;&gt;&lt;polygon class&#x3D;&quot;cls-8&quot; points&#x3D;&quot;569.71 382.28 653.74 329.39 747.13 320.1 679.2 369.85 569.71 382.28&quot;&gt;&lt;/polygon&gt;    
+      &lt;polygon class&#x3D;&quot;cls-5&quot; points&#x3D;&quot;691.95 367.2 570.87 392.34 565.32 383.35 687.8 357.45 691.95 367.2&quot;&gt;&lt;/polygon&gt;
+  
+      
+      &lt;polygon class&#x3D;&quot;cls-5&quot; points&#x3D;&quot;661.54 337.48 570.87 392.34 562.42 378.92 652.25 322.38 658.12 321.34 661.54 337.48&quot;&gt;&lt;/polygon&gt;&lt;polygon class&#x3D;&quot;cls-7&quot; points&#x3D;&quot;661.54 337.48 570.87 392.34 562.42 378.92 652.25 322.38 658.12 321.34 661.54 337.48&quot;&gt;&lt;/polygon&gt;&lt;polygon class&#x3D;&quot;cls-5&quot; points&#x3D;&quot;747.13 320.1 661.54 337.48 652.25 322.38 738.4 307.1 747.13 320.1&quot;&gt;&lt;/polygon&gt;
+      &lt;/g&gt;
+        &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M588.28,420.26s3.44,5.2,5.19,8l43.1,68.48,158.81-100-43.1-68.48q-2.63-4.17-5.47-8Z&quot;&gt;&lt;/path&gt;
+        &lt;path class&#x3D;&quot;cls-7&quot; d&#x3D;&quot;M588.28,420.26s3.44,5.2,5.19,8l43.1,68.48,158.81-100-43.1-68.48q-2.63-4.17-5.47-8Z&quot;&gt;&lt;/path&gt;
+      &lt;rect class&#x3D;&quot;cls-5&quot; x&#x3D;&quot;693.73&quot; y&#x3D;&quot;335.51&quot; width&#x3D;&quot;83.99&quot; height&#x3D;&quot;90.58&quot; transform&#x3D;&quot;translate(-89.78 450.43) rotate(-32.19)&quot;&gt;&lt;/rect&gt;
+      
+      
+      
+    &lt;/g&gt;
+    
+    &lt;g id&#x3D;&quot;rucksack&quot; data-name&#x3D;&quot;Layer 6&quot;&gt;
+      &lt;g id&#x3D;&quot;stripe&quot;&gt;&lt;path class&#x3D;&quot;cls-12&quot; d&#x3D;&quot;M1200.32,473.91h0a13.74,13.74,0,0,0-18.41,7.44l-55,129.86a14.82,14.82,0,0,0,7.13,19.21h0a13.74,13.74,0,0,0,18.41-7.44l55-129.86A14.82,14.82,0,0,0,1200.32,473.91Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-13&quot; d&#x3D;&quot;M1202.18,606.34h0a14,14,0,0,0-16.18-11.8l-48.83,9c-7.59,1.4-12.66,9-11.31,16.89h0a14,14,0,0,0,16.18,11.8l48.83-9C1198.46,621.82,1203.53,614.26,1202.18,606.34Z&quot;/&gt;
+      &lt;/g&gt;
+      &lt;path class&#x3D;&quot;cls-8&quot; d&#x3D;&quot;M1300.86,603l-122.93,22.74-15.44-90.91c-5.75-33.86,15.89-66.17,48.34-72.18l11.58-2.08c32.45-6,57.26,17.66,63,51.51Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M1307,601.91l-112.32,20.78-15.9-93.61c-5.5-32.36,15.19-63.25,46.2-69h0c31-5.74,60.62,15.85,66.12,48.21Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-8&quot; d&#x3D;&quot;M1296.76,603.8,1215,618.92l-4.89-28.77c-2.11-12.42,5.83-24.27,17.73-26.47l38.67-7.15c11.9-2.2,23.26,6.08,25.37,18.5Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M1296.76,603.8l-73.41,13.58-4.92-29c-2-11.62,5.45-22.72,16.6-24.78l33.07-6.12c11.14-2.06,21.77,5.69,23.75,17.32Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-4&quot; d&#x3D;&quot;M1231.77,469.69l-13.42,2.48a10.25,10.25,0,0,0-8,11.92l2.38,14a9.9,9.9,0,0,0,11.42,8.33l13.42-2.48a10.25,10.25,0,0,0,8-11.92l-2.38-14A9.9,9.9,0,0,0,1231.77,469.69Zm7.17,20.84a6.39,6.39,0,0,1-5,7.43l-8.36,1.55a6.17,6.17,0,0,1-7.12-5.19l-1.48-8.73a6.39,6.39,0,0,1,5-7.43l8.36-1.55a6.17,6.17,0,0,1,7.12,5.19Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-14&quot; d&#x3D;&quot;M1233.74,471.13l-13.42,2.48a10.25,10.25,0,0,0-8,11.92l2.38,14a9.9,9.9,0,0,0,11.42,8.33l13.42-2.48a10.25,10.25,0,0,0,8-11.92l-2.38-14A9.9,9.9,0,0,0,1233.74,471.13Zm7.17,20.84a6.39,6.39,0,0,1-5,7.43l-8.36,1.55a6.17,6.17,0,0,1-7.12-5.19L1219,487a6.39,6.39,0,0,1,5-7.43l8.36-1.55a6.17,6.17,0,0,1,7.12,5.19Z&quot;/&gt;
+    &lt;/g&gt;
+    &lt;g id&#x3D;&quot;bike&quot; data-name&#x3D;&quot;Layer 5&quot;&gt;
+      &lt;path class&#x3D;&quot;cls-8 wheel&quot; d&#x3D;&quot;M1139.82,780.44a76.59,76.59,0,1,0-57.9,91.53A76.59,76.59,0,0,0,1139.82,780.44Zm-28.12,6.33a47.59,47.59,0,0,1,.83,15.8c-30.14-6.28-47.68-21.65-54.39-52.52A47.73,47.73,0,0,1,1111.69,786.77Zm-70.46-30.9c10.35,26.88,10.14,50.4-13.73,70.77a47.67,47.67,0,0,1,13.73-70.77Zm34.35,88a47.55,47.55,0,0,1-34.94-5.62c16.8-20.36,41.71-25.94,67.09-19.46A47.66,47.66,0,0,1,1075.58,843.85Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-8 wheel&quot; d&#x3D;&quot;M864.89,789.69a76.59,76.59,0,1,0-66.13,85.78A76.59,76.59,0,0,0,864.89,789.69Zm-28.59,3.7a47.59,47.59,0,0,1-.64,15.81c-29.43-9-45.47-26-49.3-57.33A47.73,47.73,0,0,1,836.3,793.39ZM769,756.1c7.82,27.72,5.43,51.12-20.22,69.2A47.67,47.67,0,0,1,769,756.1Zm26.06,90.78a47.55,47.55,0,0,1-34.27-8.83c18.61-18.72,43.93-22,68.6-13.16A47.66,47.66,0,0,1,795.06,846.88Z&quot;/&gt;
+      &lt;g&gt;
+        &lt;rect class&#x3D;&quot;cls-1&quot; x&#x3D;&quot;871.39&quot; y&#x3D;&quot;693.37&quot; width&#x3D;&quot;12.87&quot; height&#x3D;&quot;53.21&quot; transform&#x3D;&quot;translate(-165.97 273.38) rotate(-16.19)&quot;/&gt;
+        &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M813.93,679.35c-3.72-5.2,2.24-18.5,9.16-16.13,33.43,11.46,73.85,10.45,73.85,10.45,8.84.15,14.44,10.34,7.27,15.48-14.36,8.79-33.13,17-56.35,9.76C830.17,693.41,819.83,687.6,813.93,679.35Z&quot;/&gt;
+        &lt;path class&#x3D;&quot;cls-7&quot; d&#x3D;&quot;M813.93,679.35c-3.72-5.2,2.24-18.5,9.16-16.13,33.43,11.46,73.85,10.45,73.85,10.45,8.84.15,14.44,10.34,7.27,15.48-14.36,8.79-33.13,17-56.35,9.76C830.17,693.41,819.83,687.6,813.93,679.35Z&quot;/&gt;
+        &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M817.15,680.06c-3.59-5,1.69-16.51,8.37-14.22,32.3,11.09,71.41,7.83,71.41,7.83,8.54.14,17.45,9.94,7.43,15.88-13.87,8.51-32,16.44-54.44,9.44C832.84,693.67,822.85,688,817.15,680.06Z&quot;/&gt;
+      &lt;/g&gt;
+      &lt;g&gt;
+        &lt;circle class&#x3D;&quot;cls-9&quot; cx&#x3D;&quot;1022.66&quot; cy&#x3D;&quot;599.55&quot; r&#x3D;&quot;11.57&quot; transform&#x3D;&quot;translate(-4.86 8.38) rotate(-0.47)&quot;/&gt;
+        &lt;path class&#x3D;&quot;cls-1&quot; d&#x3D;&quot;M1069.76,792.37l-34.89-96.74,1.93-.8-1.71-4.15-1.74.72-13.26-36.76,1.27-.42-2.25-6.76,5.94-2-2.57-7.72-9.7,3.22c-11.55-22.55,2-36.33,15-41.86l-5.57-8.81c-23,10.29-29.61,28.75-19.53,54l-9.38,3.12,2.56,7.72,5.47-1.82,2.25,6.76,2.36-.78,13.62,37.76-2.35,1,1.71,4.15,2.16-.89,34.65,96.09a7.47,7.47,0,0,0,9.56,4.49h0A7.47,7.47,0,0,0,1069.76,792.37Z&quot;/&gt;
+        &lt;circle class&#x3D;&quot;cls-11&quot; cx&#x3D;&quot;1027.9&quot; cy&#x3D;&quot;587.94&quot; r&#x3D;&quot;12.99&quot; transform&#x3D;&quot;translate(-4.77 8.42) rotate(-0.47)&quot;/&gt;
+      &lt;/g&gt;
+      &lt;path class&#x3D;&quot;cls-5&quot; d&#x3D;&quot;M1021.29,654l-17.73,6.15,1.72,5.59-31.41,82.36c-19.35,32.53-66.3,36.72-75.56,16.68l-7.09-21.5L879,747.1l3.28,10.09-94.65,33.95c-11.49,2.29-11.85,15.79-2.61,17.84,0,0,39.11,3.66,103,9.5a92.75,92.75,0,0,0,40.89-5.29c44.32-16.56,57.73-50.67,57.73-50.67l26.82-67.26a1.37,1.37,0,0,1,2.53,0l1.42,3.33,17.75-7.62Z&quot;/&gt;
+      &lt;path class&#x3D;&quot;cls-7&quot; d&#x3D;&quot;M1021.29,654l-17.73,6.15,1.72,5.59-31.41,82.36c-19.35,32.53-66.3,36.72-75.56,16.68l-7.09-21.5L879,747.1l3.28,10.09-94.65,33.95c-11.49,2.29-11.85,15.79-2.61,17.84,0,0,39.11,3.66,103,9.5a92.75,92.75,0,0,0,40.89-5.29c44.32-16.56,57.73-50.67,57.73-50.67l26.82-67.26a1.37,1.37,0,0,1,2.53,0l1.42,3.33,17.75-7.62Z&quot;/&gt;
+    &lt;/g&gt;
+  &lt;/svg&gt;
+  &lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./not-found.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.cls-1 {
+    fill: #ffc541;
+  }
+  
+  .cls-2 {
+    fill: #4e4066;
+  }
+  
+  .cls-3 {
+    fill: #6f5b92;
+  }
+  
+  .cls-4 {
+    fill: #f78d5e;
+  }
+  
+  .cls-5 {
+    fill: #fa976c;
+  }
+  
+  .cls-6,
+  .cls-7,
+  .cls-8 {
+    fill: #b65c32;
+  }
+  
+  .cls-10,
+  .cls-6 {
+    opacity: 0.6;
+  }
+  
+  .cls-7 {
+    opacity: 0.4;
+  }
+  
+  .cls-9 {
+    fill: #f4b73b;
+  }
+  
+  .cls-11 {
+    fill: #f9c358;
+  }
+  
+  .cls-12 {
+    fill: #9b462c;
+  }
+  
+  .cls-13 {
+    fill: #aa512e;
+  }
+  
+  .cls-14 {
+    fill: #7d6aa5;
+  }
+  
+  
+  /* animations */
+  
+  .wheel {
+    animation: wheel-rotate 6s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes wheel-rotate {
+    50% {
+      transform: rotate(360deg);
+      animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    }
+    100% {
+      transform: rotate(960deg)
+    }
+  }
+  
+  .clock-hand-1 {
+    animation: clock-rotate 3s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+  }
+  
+  .clock-hand-2 {
+    animation: clock-rotate 6s linear infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+  }
+  
+  @keyframes clock-rotate {
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  
+  #box-top {
+    animation: box-top-anim 2s linear infinite;
+    transform-origin: right top;
+    transform-box: fill-box;
+  }
+  
+  @keyframes box-top-anim {
+    50% {
+      transform: rotate(-5deg)
+    }
+  }
+  
+  #umbrella {
+    animation: umbrella-anim 6s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes umbrella-anim {
+    25% {
+      transform: translateY(10px) rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+  }
+  
+  #cup {
+    animation: cup-rotate 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+    transform-origin: top left;
+    transform-box: fill-box;
+  }
+  
+  @keyframes cup-rotate {
+    50% {
+      transform: rotate(-5deg)
+    }
+  }
+  
+  #pillow {
+    animation: pillow-anim 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes pillow-anim {
+    25% {
+      transform: rotate(10deg) translateY(5px)
+    }
+    75% {
+      transform: rotate(-10deg)
+    }
+  }
+  
+  #stripe {
+    animation: stripe-anim 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes stripe-anim {
+    25% {
+      transform: translate(10px, 0) rotate(-10deg)
+    }
+    75% {
+      transform: translateX(10px)
+    }
+  }
+  
+  #bike {
+    animation: bike-anim 6s ease infinite;
+  }
+  
+  @keyframes bike-anim {
+    0% {
+      transform: translateX(-1300px)
+    }
+    50% {
+      transform: translateX(0);
+      animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    }
+    100% {
+      transform: translateX(1300px)
+    }
+  }
+  
+  #rucksack {
+    animation: ruck-anim 3s linear infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ruck-anim {
+    50% {
+      transform: rotate(5deg)
+    }
+  }
+  
+  .circle {
+    animation: circle-anim ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    perspective: 0px;
+  }
+  
+  .circle.c1 {
+    animation-duration: 2s
+  }
+  
+  .circle.c2 {
+    animation-duration: 3s
+  }
+  
+  .circle.c3 {
+    animation-duration: 1s
+  }
+  
+  .circle.c4 {
+    animation-duration: 1s
+  }
+  
+  .circle.c5 {
+    animation-duration: 2s
+  }
+  
+  .circle.c6 {
+    animation-duration: 3s
+  }
+  
+  @keyframes circle-anim {
+    50% {
+      transform: scale(.2) rotateX(360deg) rotateY(360deg)
+    }
+  }
+  
+  .four,
+  #ou {
+    animation: four-anim cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+  }
+  
+  .four.a {
+    transform-origin: bottom left;
+    animation-duration: 3s;
+    transform-box: fill-box;
+  }
+  
+  .four.b {
+    transform-origin: bottom right;
+    animation-duration: 3s;
+    transform-box: fill-box;
+  }
+  
+  #ou {
+    animation-duration: 6s;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes four-anim {
+    50% {
+      transform: scale(.98)
+    }
+  }</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">    <title>404</title>    <g id="Layer_12 yellow-back-fig" data-name="Layer 12">      <path class="cls-1" d="M600.87,872H156a4,4,0,0,0-3.78,4.19h0a4,4,0,0,0,3.78,4.19H600.87a4,4,0,0,0,3.78-4.19h0A4,4,0,0,0,600.87,872Z"/>      <rect class="cls-1" x="680.91" y="871.98" width="513.38" height="8.39" rx="4.19" ry="4.19"/>      <path class="cls-1" d="M1480,876.17h0c0,2.32,2.37,4.19,5.3,4.19h350.61c2.93,0,5.3-1.88,5.3-4.19h0c0-2.32-2.37-4.19-5.3-4.19H1485.26C1482.33,872,1480,873.86,1480,876.17Z"/>      <rect class="cls-1" x="492.21" y="920.64" width="249.8" height="8.39" rx="4.19" ry="4.19"/>      <path class="cls-1" d="M1549.14,924.84h0a4.19,4.19,0,0,0-4.19-4.19H1067.46a14.66,14.66,0,0,1,.35,3.21v1A4.19,4.19,0,0,0,1072,929h472.94A4.19,4.19,0,0,0,1549.14,924.84Z"/>      <path class="cls-1" d="M865.5,924.84h0a4.19,4.19,0,0,0,4.19,4.19h82.37a12.28,12.28,0,0,1-.19-2v-2.17a4.19,4.19,0,0,0-4.19-4.19h-78A4.19,4.19,0,0,0,865.5,924.84Z"/>      <rect class="cls-1" x="915.6" y="981.47" width="54.72" height="8.39" rx="4.19" ry="4.19"/>      <path class="cls-1" d="M730.33,985.67h0c0,2.32,4.23,4.19,9.44,4.19h104.3c5.22,0,9.44-1.88,9.44-4.19h0c0-2.32-4.23-4.19-9.44-4.19H739.78C734.56,981.47,730.33,983.35,730.33,985.67Z"/>      <rect class="cls-1" x="997.06" y="981.47" width="78.11" height="8.39" rx="4.19" ry="4.19"/>           <g id="round-conf">      <path class="cls-1 circle c1" d="M536.41,155.14a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,536.41,155.14Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,536.41,183.81Z"/>      <path class="cls-1 circle c2" d="M1345.09,82.44a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,1345.09,82.44Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,1345.09,111.12Z"/>      <path class="cls-1 circle c3" d="M70.12,363A17.77,17.77,0,1,0,87.89,380.8,17.77,17.77,0,0,0,70.12,363Zm0,28.68A10.9,10.9,0,1,1,81,380.8,10.9,10.9,0,0,1,70.12,391.7Z"/>      <path class="cls-1 circle c4" d="M170.47,751.82a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,170.47,751.82Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,170.47,780.5Z"/>      <path class="cls-1 circle c5" d="M1457.34,762.73a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,1457.34,762.73Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,1457.34,791.4Z"/>      <path class="cls-1 circle c6" d="M1829.15,407.49a17.77,17.77,0,1,0,17.77,17.77A17.77,17.77,0,0,0,1829.15,407.49Zm0,28.68a10.9,10.9,0,1,1,10.9-10.9A10.9,10.9,0,0,1,1829.15,436.17Z"/>      </g>    </g>    <g id="fortyfour" data-name="Layer 2">      <g class="four a">                <rect class="cls-2" x="233.74" y="391.14" width="120.71" height="466.29" rx="57.1" ry="57.1" transform="translate(918.39 330.19) rotate(90)"/>                  <rect class="cls-3" x="333.83" y="475.1" width="120.71" height="396.88" rx="60.36" ry="60.36"/>               <rect class="cls-3" x="197.13" y="122.89" width="120.71" height="604.75" rx="60.36" ry="60.36" transform="translate(290.49 -70.78) rotate(35)"/>          </g>      <g class="four b">          <rect class="cls-2" x="1558.84" y="391.91" width="120.71" height="466.29" rx="57.1" ry="57.1" transform="translate(2244.26 -994.14) rotate(90)"/>                 <rect class="cls-3" x="1658.92" y="475.87" width="120.71" height="396.88" rx="60.36" ry="60.36"/>          <rect class="cls-3" x="1522.22" y="123.66" width="120.71" height="604.75" rx="60.36" ry="60.36" transform="translate(530.57 -830.68) rotate(35)"/>         </g>      <path class="cls-3" id="ou" d="M956.54,168.2c-194.34,0-351.89,157.55-351.89,351.89S762.19,872,956.54,872s351.89-157.55,351.89-351.89S1150.88,168.2,956.54,168.2Zm0,584.49c-128.46,0-232.6-104.14-232.6-232.6s104.14-232.6,232.6-232.6,232.6,104.14,232.6,232.6S1085,752.69,956.54,752.69Z"/>    </g>    <g id="umbrella" data-name="Layer 3">      <g>        <circle class="cls-4" cx="1187.53" cy="240.3" r="7.66" transform="translate(236.36 990.8) rotate(-49.71)"/>        <g>          <path class="cls-5" d="M1219.56,359.67l55,100.52c32.7-48.48-6.87-142.43-91.75-214.38-84.41-71.55-183-95.33-225.81-56l114.21,44.14Z"/>          <path class="cls-6" d="M1182.79,245.81c-84.41-71.55-183-95.33-225.81-56l114.21,44.14Z"/>          <polygon class="cls-7" points="1182.79 245.81 1071.19 233.91 1219.56 359.67 1182.79 245.81"/>        </g>        <polygon class="cls-8" points="1180.91 409.02 1274.54 460.19 1219.56 359.67 1071.19 233.91 956.98 189.76 1021.95 274.29 1180.91 409.02"/>        <g>          <rect class="cls-4" x="997.45" y="358.35" width="175.58" height="5.1" transform="translate(108.21 955.38) rotate(-49.71)"/>          <rect class="cls-4" x="1028.09" y="399.36" width="21.46" height="32.27" rx="10.73" ry="10.73" transform="translate(515.04 -573.16) rotate(40.29)"/>        </g>      </g>    </g>    <g id="pillow" data-name="Layer 4">      <path class="cls-1" d="M754,627.07c7,.54,12.92-2.82,13.35-7.59s-4.95-9.24-12-9.87a18.55,18.55,0,0,0-2.17,0l-74.9-81.64c0-.1,0-.19,0-.29,0-7.09-4-12.83-8.8-12.81s-8.75,5.77-8.73,12.87c0,0,0,.09,0,.13l-50.21,46.07h-.09c-7.06-.63-13.14,2.77-13.57,7.59s4.87,9.16,11.85,9.84l76.08,82.92s0,0,0,.06c0,7.09,4,12.83,8.8,12.81s8.65-5.66,8.71-12.65Z"/>      <path class="cls-9" d="M669.46,514.82c-4.77-.83-8.75,5.77-8.73,12.87,0,0,0,.09,0,.13l-50.21,46.07h-.09c-7.06-.63-13.14,2.77-13.57,7.59s4.87,9.16,11.85,9.84l76.08,82.92s0,0,0,.06c0,7.09,4,12.83,8.8,12.81s8.65-5.66,8.71-12.65C570.55,573,702.07,520.47,669.46,514.82Z"/>    </g>    <g id="cup" data-name="Layer 7">      <polygon class="cls-1" points="1173.69 748.21 1140.52 715.42 1195.79 647.35 1241.13 692.16 1173.69 748.21"/>      <polygon class="cls-8" points="1173.69 748.21 1140.52 715.42 1143.93 711.27 1177.81 744.75 1173.69 748.21"/>      <polygon class="cls-5" points="1194.68 731.46 1157.04 694.24 1183.8 661.7 1226.91 704.32 1194.68 731.46"/>      <g class="cls-10">        <path class="cls-8" d="M1176.32,667.78h0a4.19,4.19,0,0,1,4.19,4.19v33.54a0,0,0,0,1,0,0h-8.38a0,0,0,0,1,0,0V672a4.19,4.19,0,0,1,4.19-4.19Z" transform="translate(822.53 -628.67) rotate(44.67)"/>        <path class="cls-8" d="M1172.73,709.7l23.58-23.85a4.19,4.19,0,0,1,5.92,0h0a4.19,4.19,0,0,1,0,5.92l-23.58,23.85Z"/>        <path class="cls-8" d="M1185.11,722.09l23.58-23.85a4.19,4.19,0,0,1,5.92,0h0a4.19,4.19,0,0,1,0,5.92L1191.06,728Z"/>      </g>      <path class="cls-5" d="M1197.85,660.5h45.69a5.7,5.7,0,0,1,5.7,5.7v8.32a0,0,0,0,1,0,0h-57.09a0,0,0,0,1,0,0v-8.32A5.7,5.7,0,0,1,1197.85,660.5Z" transform="translate(829.53 -667.66) rotate(45)"/>      <path class="cls-8" d="M1191.49,664.74h53.94a5.25,5.25,0,0,1,5.25,5.25v4.79a0,0,0,0,1,0,0h-64.44a0,0,0,0,1,0,0V670a5.25,5.25,0,0,1,5.25-5.25Z" transform="translate(822.83 -663.17) rotate(44.67)"/>    </g>    <g id="clock" data-name="Layer 8">        <circle class="cls-5" cx="847.7" cy="247.59" r="74.66" transform="translate(-32.91 314.05) rotate(-20.6)"/>      <circle class="cls-1" cx="847.7" cy="247.59" r="63.44" transform="translate(-32.91 314.05) rotate(-20.6)"/>      <rect class="cls-3 clock-hand-1" x="845" y="189.5" width="6.04" height="58" rx="3.02" ry="3.02" />      <rect class="cls-3 clock-hand-2" x="845" y="209.5" width="6.04" height="38" rx="3.02" ry="3.02" transform="translate(1611.22 -230.4) rotate(130.4)"/>          <circle class="cls-3" cx="847.7" cy="247.59" transform="translate(-32.91 314.05) rotate(-20.6)" r="3" />    </g>    <g id="box" data-name="Layer 9">      <g id="box-top"><polygon class="cls-8" points="569.71 382.28 653.74 329.39 747.13 320.1 679.2 369.85 569.71 382.28"></polygon>          <polygon class="cls-5" points="691.95 367.2 570.87 392.34 565.32 383.35 687.8 357.45 691.95 367.2"></polygon>              <polygon class="cls-5" points="661.54 337.48 570.87 392.34 562.42 378.92 652.25 322.38 658.12 321.34 661.54 337.48"></polygon><polygon class="cls-7" points="661.54 337.48 570.87 392.34 562.42 378.92 652.25 322.38 658.12 321.34 661.54 337.48"></polygon><polygon class="cls-5" points="747.13 320.1 661.54 337.48 652.25 322.38 738.4 307.1 747.13 320.1"></polygon>      </g>        <path class="cls-5" d="M588.28,420.26s3.44,5.2,5.19,8l43.1,68.48,158.81-100-43.1-68.48q-2.63-4.17-5.47-8Z"></path>        <path class="cls-7" d="M588.28,420.26s3.44,5.2,5.19,8l43.1,68.48,158.81-100-43.1-68.48q-2.63-4.17-5.47-8Z"></path>      <rect class="cls-5" x="693.73" y="335.51" width="83.99" height="90.58" transform="translate(-89.78 450.43) rotate(-32.19)"></rect>                      </g>        <g id="rucksack" data-name="Layer 6">      <g id="stripe"><path class="cls-12" d="M1200.32,473.91h0a13.74,13.74,0,0,0-18.41,7.44l-55,129.86a14.82,14.82,0,0,0,7.13,19.21h0a13.74,13.74,0,0,0,18.41-7.44l55-129.86A14.82,14.82,0,0,0,1200.32,473.91Z"/>      <path class="cls-13" d="M1202.18,606.34h0a14,14,0,0,0-16.18-11.8l-48.83,9c-7.59,1.4-12.66,9-11.31,16.89h0a14,14,0,0,0,16.18,11.8l48.83-9C1198.46,621.82,1203.53,614.26,1202.18,606.34Z"/>      </g>      <path class="cls-8" d="M1300.86,603l-122.93,22.74-15.44-90.91c-5.75-33.86,15.89-66.17,48.34-72.18l11.58-2.08c32.45-6,57.26,17.66,63,51.51Z"/>      <path class="cls-1" d="M1307,601.91l-112.32,20.78-15.9-93.61c-5.5-32.36,15.19-63.25,46.2-69h0c31-5.74,60.62,15.85,66.12,48.21Z"/>      <path class="cls-8" d="M1296.76,603.8,1215,618.92l-4.89-28.77c-2.11-12.42,5.83-24.27,17.73-26.47l38.67-7.15c11.9-2.2,23.26,6.08,25.37,18.5Z"/>      <path class="cls-5" d="M1296.76,603.8l-73.41,13.58-4.92-29c-2-11.62,5.45-22.72,16.6-24.78l33.07-6.12c11.14-2.06,21.77,5.69,23.75,17.32Z"/>      <path class="cls-4" d="M1231.77,469.69l-13.42,2.48a10.25,10.25,0,0,0-8,11.92l2.38,14a9.9,9.9,0,0,0,11.42,8.33l13.42-2.48a10.25,10.25,0,0,0,8-11.92l-2.38-14A9.9,9.9,0,0,0,1231.77,469.69Zm7.17,20.84a6.39,6.39,0,0,1-5,7.43l-8.36,1.55a6.17,6.17,0,0,1-7.12-5.19l-1.48-8.73a6.39,6.39,0,0,1,5-7.43l8.36-1.55a6.17,6.17,0,0,1,7.12,5.19Z"/>      <path class="cls-14" d="M1233.74,471.13l-13.42,2.48a10.25,10.25,0,0,0-8,11.92l2.38,14a9.9,9.9,0,0,0,11.42,8.33l13.42-2.48a10.25,10.25,0,0,0,8-11.92l-2.38-14A9.9,9.9,0,0,0,1233.74,471.13Zm7.17,20.84a6.39,6.39,0,0,1-5,7.43l-8.36,1.55a6.17,6.17,0,0,1-7.12-5.19L1219,487a6.39,6.39,0,0,1,5-7.43l8.36-1.55a6.17,6.17,0,0,1,7.12,5.19Z"/>    </g>    <g id="bike" data-name="Layer 5">      <path class="cls-8 wheel" d="M1139.82,780.44a76.59,76.59,0,1,0-57.9,91.53A76.59,76.59,0,0,0,1139.82,780.44Zm-28.12,6.33a47.59,47.59,0,0,1,.83,15.8c-30.14-6.28-47.68-21.65-54.39-52.52A47.73,47.73,0,0,1,1111.69,786.77Zm-70.46-30.9c10.35,26.88,10.14,50.4-13.73,70.77a47.67,47.67,0,0,1,13.73-70.77Zm34.35,88a47.55,47.55,0,0,1-34.94-5.62c16.8-20.36,41.71-25.94,67.09-19.46A47.66,47.66,0,0,1,1075.58,843.85Z"/>      <path class="cls-8 wheel" d="M864.89,789.69a76.59,76.59,0,1,0-66.13,85.78A76.59,76.59,0,0,0,864.89,789.69Zm-28.59,3.7a47.59,47.59,0,0,1-.64,15.81c-29.43-9-45.47-26-49.3-57.33A47.73,47.73,0,0,1,836.3,793.39ZM769,756.1c7.82,27.72,5.43,51.12-20.22,69.2A47.67,47.67,0,0,1,769,756.1Zm26.06,90.78a47.55,47.55,0,0,1-34.27-8.83c18.61-18.72,43.93-22,68.6-13.16A47.66,47.66,0,0,1,795.06,846.88Z"/>      <g>        <rect class="cls-1" x="871.39" y="693.37" width="12.87" height="53.21" transform="translate(-165.97 273.38) rotate(-16.19)"/>        <path class="cls-5" d="M813.93,679.35c-3.72-5.2,2.24-18.5,9.16-16.13,33.43,11.46,73.85,10.45,73.85,10.45,8.84.15,14.44,10.34,7.27,15.48-14.36,8.79-33.13,17-56.35,9.76C830.17,693.41,819.83,687.6,813.93,679.35Z"/>        <path class="cls-7" d="M813.93,679.35c-3.72-5.2,2.24-18.5,9.16-16.13,33.43,11.46,73.85,10.45,73.85,10.45,8.84.15,14.44,10.34,7.27,15.48-14.36,8.79-33.13,17-56.35,9.76C830.17,693.41,819.83,687.6,813.93,679.35Z"/>        <path class="cls-5" d="M817.15,680.06c-3.59-5,1.69-16.51,8.37-14.22,32.3,11.09,71.41,7.83,71.41,7.83,8.54.14,17.45,9.94,7.43,15.88-13.87,8.51-32,16.44-54.44,9.44C832.84,693.67,822.85,688,817.15,680.06Z"/>      </g>      <g>        <circle class="cls-9" cx="1022.66" cy="599.55" r="11.57" transform="translate(-4.86 8.38) rotate(-0.47)"/>        <path class="cls-1" d="M1069.76,792.37l-34.89-96.74,1.93-.8-1.71-4.15-1.74.72-13.26-36.76,1.27-.42-2.25-6.76,5.94-2-2.57-7.72-9.7,3.22c-11.55-22.55,2-36.33,15-41.86l-5.57-8.81c-23,10.29-29.61,28.75-19.53,54l-9.38,3.12,2.56,7.72,5.47-1.82,2.25,6.76,2.36-.78,13.62,37.76-2.35,1,1.71,4.15,2.16-.89,34.65,96.09a7.47,7.47,0,0,0,9.56,4.49h0A7.47,7.47,0,0,0,1069.76,792.37Z"/>        <circle class="cls-11" cx="1027.9" cy="587.94" r="12.99" transform="translate(-4.77 8.42) rotate(-0.47)"/>      </g>      <path class="cls-5" d="M1021.29,654l-17.73,6.15,1.72,5.59-31.41,82.36c-19.35,32.53-66.3,36.72-75.56,16.68l-7.09-21.5L879,747.1l3.28,10.09-94.65,33.95c-11.49,2.29-11.85,15.79-2.61,17.84,0,0,39.11,3.66,103,9.5a92.75,92.75,0,0,0,40.89-5.29c44.32-16.56,57.73-50.67,57.73-50.67l26.82-67.26a1.37,1.37,0,0,1,2.53,0l1.42,3.33,17.75-7.62Z"/>      <path class="cls-7" d="M1021.29,654l-17.73,6.15,1.72,5.59-31.41,82.36c-19.35,32.53-66.3,36.72-75.56,16.68l-7.09-21.5L879,747.1l3.28,10.09-94.65,33.95c-11.49,2.29-11.85,15.79-2.61,17.84,0,0,39.11,3.66,103,9.5a92.75,92.75,0,0,0,40.89-5.29c44.32-16.56,57.73-50.67,57.73-50.67l26.82-67.26a1.37,1.37,0,0,1,2.53,0l1.42,3.33,17.75-7.62Z"/>    </g>  </svg>  </div></div>'
+    var COMPONENTS = [{'name': 'AboutusComponent', 'selector': 'app-aboutus'},{'name': 'AdminAuthorsComponent', 'selector': 'app-admin-authors'},{'name': 'AdminBooksComponent', 'selector': 'app-admin-books'},{'name': 'AdminCategoriesComponent', 'selector': 'app-admin-categories'},{'name': 'AdminComponent', 'selector': 'app-admin'},{'name': 'AdminLoginComponent', 'selector': 'app-admin-login'},{'name': 'AdminProfileComponent', 'selector': 'app-admin-profile'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AuthorComponent', 'selector': 'app-author'},{'name': 'AuthorDetailsComponent', 'selector': 'app-author-details'},{'name': 'AuthorsComponent', 'selector': 'app-authors'},{'name': 'BooksComponent', 'selector': 'app-books'},{'name': 'CategoriesComponent', 'selector': 'app-categories'},{'name': 'CategoryComponent', 'selector': 'app-category'},{'name': 'CategoryDetailsComponent', 'selector': 'app-category-details'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NotFoundComponent', 'selector': 'app-not-found'},{'name': 'ProfileComponent', 'selector': 'app-profile'},{'name': 'RegistrationComponent', 'selector': 'app-registration'},{'name': 'ShelveComponent', 'selector': 'app-shelve'},{'name': 'ShelveMainComponent', 'selector': 'app-shelve-main'},{'name': 'ShelveSidebarComponent', 'selector': 'app-shelve-sidebar'},{'name': 'SingleBookComponent', 'selector': 'app-single-book'},{'name': 'UserComponent', 'selector': 'app-user'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'NotFoundComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'NotFoundComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
